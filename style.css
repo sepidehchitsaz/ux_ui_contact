@@ -48,3 +48,169 @@
 .navbar .nav-item .dropdown-menu .dropdown-item:hover{
     background-color:#DC4625;
 }
+
+.hero{
+    /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/oldwall.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-color: #A6D8DD;
+} 
+
+.hero .talk img {
+    width: 200px;
+        float: right;
+        margin-right: 200px;
+        margin-top: 180px;
+}
+        
+        
+        
+ .hero .text h1 {
+    font-family: caveat;
+    font-size: 56px;
+    margin-left: 200px;
+    padding-top: 80px;
+    color: #0C1B1D;
+ }    
+    
+     
+
+.hero .text p{
+    /* color: black;
+    font-family: caveat;
+    font-size: 36px;
+    margin: 15px;
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 770px;
+    padding-bottom: 5px;
+    padding-top: 150px; */ 
+    font-family: caveat;
+    font-size: 56px;
+    margin-left: 200px;
+    padding-top: 20px;
+    color: #0C1B1D;
+    
+        
+    
+} 
+
+.card-footer {
+    background-color: #0C1B1D;
+}
+.footer {
+    font-size: 18px;
+    font-family: oswald;
+    margin-top: 0px;
+    background-color: #0C1B1D;
+    height: 200px;
+    
+}
+
+@media screen and (max-width:600px) {
+    .footer {
+        margin-top: 700px;
+        
+    }
+}
+
+
+
+.email {
+    height: 60px;
+    width: 45px;
+    margin: 5px;
+    position: relative;
+    /* bottom: 107px; */
+    float: left;
+    margin-left: 50px;
+    bottom: -70px;
+
+}
+
+@media screen and (max-width:600px) {
+    .email{
+      margin-left: 150px;
+        
+    }
+}
+
+.facebook {
+    height: 45px;
+    margin: 5px;
+    position: relative;
+    /* bottom: 100px; */
+    float: left;
+    bottom: -78px;
+    
+}
+
+@media screen and (max-width:600px) {
+    .facebook{
+     
+        
+    }
+}
+
+.linkedin {
+    height: 45px;
+    margin: 5px;
+    position: relative;
+    /* bottom: 100px; */
+    float: left;
+    bottom: -78px;
+}
+
+@media screen and (max-width:600px) {
+    .linkedin {
+        
+
+    }
+}
+
+.copyright {
+    height: 20px;
+    margin-top: 100px;
+    padding-left: 1095px;
+
+
+    
+}
+
+@media screen and (max-width:600px) {
+    .copyright {
+        height: 25px;
+        padding-left: 250px;
+        margin-top: 3px;
+        
+        
+
+    }
+}
+
+
+
+h6 {
+    font-family: oswald;
+    font-size: 18px;
+    float: right;
+    margin-right: 50px;
+    font-weight: 100;
+    color: #C9AA8B; 
+    line-height: 4;
+    margin-top: 72px;
+    
+
+}
+
+@media screen and (max-width:600px) {
+    h6 {
+        font-size: 18px;
+        margin-top: 0px;
+        padding-top: 0px;
+        
+    
+    }
+}
