@@ -6,6 +6,12 @@
     font-weight: 300;
 }
 
+@media screen and (max-width:600px){
+    .navbar-dark .navbar-brand {
+        font-size: 24px;
+    }
+
+}
 .navbar-dark .navbar-brand:hover{
     color:#79C4CD;
 }
@@ -58,6 +64,11 @@
     background-color: #A6D8DD;
 } 
 
+@media screen and (max-width:600px) {
+    .hero {
+        height: 400px;
+    }
+}
 .hero .talk img {
     width: 200px;
         float: right;
@@ -65,7 +76,13 @@
         margin-top: 180px;
 }
         
-        
+@media screen and (max-width:600px) {
+    .hero .talk img {
+        width: 100px;
+        margin-right: 50px;
+        margin-top: 80px;
+    }
+}      
         
  .hero .text h1 {
     font-family: caveat;
@@ -75,7 +92,13 @@
     color: #0C1B1D;
  }    
     
-     
+ @media screen and (max-width:600px) {
+     .hero .text h1 {
+         font-size: 36px;
+         margin-left: 50px;
+
+     }
+ }  
 
 .hero .text p{
     /* color: black;
@@ -97,6 +120,14 @@
     
 } 
 
+@media screen and (max-width:600px) {
+    .hero .text p {
+        font-size: 24px;
+        margin-left: 50px;
+        padding-top: 10px;
+    }
+}
+
 .card-footer {
     background-color: #0C1B1D;
 }
@@ -111,7 +142,8 @@
 
 @media screen and (max-width:600px) {
     .footer {
-        margin-top: 700px;
+        margin-top: 0px;
+        
         
     }
 }
@@ -132,7 +164,7 @@
 
 @media screen and (max-width:600px) {
     .email{
-      margin-left: 150px;
+      margin-left: 50px;
         
     }
 }
@@ -182,8 +214,8 @@
 @media screen and (max-width:600px) {
     .copyright {
         height: 25px;
-        padding-left: 250px;
-        margin-top: 3px;
+        padding-left: 53px;
+        margin-top: 65px;
         
         
 
@@ -209,7 +241,7 @@ h6 {
     h6 {
         font-size: 18px;
         margin-top: 0px;
-        padding-top: 0px;
+        padding-top: 40px;
         
     
     }
